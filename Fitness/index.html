@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="descripton"
+      content="Fitness is a website that helps you reach your fitness goals"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="icons/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fitness</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Fitness</h1>
+        <ul>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#offer">Offer</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h2>Stop Wishing, Start Doing</h2>
+        <h3>Start your fitness journey right now! <br />Contact us below</h3>
+        <button><a href="#contact">Contact</a></button>
+      </section>
+      <section id="offer">
+        <header class="offer-head">
+          <h2>What do we offer?</h2>
+          <h3>
+            Dieting and training are not easy, <br />
+            but we are here to help you to reach your fitness goals.
+          </h3>
+        </header>
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">
+              <img src="icons/dumbbell.svg" alt="" />
+            </div>
+            <h4>Workout plans</h4>
+            <p>We are offering personalized workout plans.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="icons/fork.svg" alt="" />
+            </div>
+            <h4>Diet</h4>
+            <p>Our diet plans are not boring and you won't starve!</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="icons/gym.svg" alt="" />
+            </div>
+            <h4>Partner Gyms</h4>
+            <p>
+              We are also offering 10% discount of your monthly gym membership.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="programs">
+        <header class="benefits-head">
+          <h2>Programs</h2>
+          <h3>
+            Here You can find our basic workout programs and diet plans. <br />
+            At our Contact page you can send us, the one you have seleted.
+          </h3>
+        </header>
+        <section class="col">
+          <div class="col-card card1">
+            <h5>Beginner Plan</h5>
+            <p>
+              First time in the gym? <br />
+              No problem!
+            </p>
+          </div>
+          <div class="col-card card2">
+            <h5>Intermediate Plan</h5>
+            <p>
+              Are you thinking about competing? <br />
+              Then this is the best plan for you
+            </p>
+          </div>
+          <div class="col-card card3">
+            <h5>Lean Bulking Diet</h5>
+            <p>
+              Do you want to gain muscle without gaining any fat? <br />
+              We got you!
+            </p>
+          </div>
+          <div class="col-card card4">
+            <h5>Weightloss Diet</h5>
+            <p>Delicious low-calorie foods</p>
+          </div>
+        </section>
+      </section>
+      <section id="contact">
+        <div class="form-wrapper">
+          <header class="form-head">
+            <h2>Contact Us</h2>
+          </header>
+          <form action="" method="POST">
+            <div class="name-form">
+              <label for="name">Name:</label>
+              <input type="text" name="name" required />
+            </div>
+            <div class="email-form">
+              <label for="email">Email: </label>
+              <input type="email" name="_replyto" required />
+            </div>
+            <div class="input-form">
+              <select name="message" id="message">
+                <option value="Beginner">Beginner Plan</option>
+                <option value="Intermediate">Intermediate Plan</option>
+                <option value="Lean">Lean Bulk</option>
+                <option value="Weightloss">Weightloss</option>
+              </select>
+            </div>
+            <button type="submit" value="Send">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <h5>Fitness &copy;</h5>
+      </div>
+    </footer>
+  </body>
+</html>
